@@ -1,5 +1,7 @@
-function bgChange(){ document.body.style.backgroundColor = "AntiqueWhite";
+function txtCol(){
+  document.getElementById("lastSec").style.color = "#023E73";
 }
 
-function bgChange(){ document.getElementById("btn").style.backgroundColor = "AntiqueWhite";
+function txtCol(){
+  document.body.style.backgroundColor = "#023E73";
 }

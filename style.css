@@ -1,44 +1,53 @@
 body{
-  background-color: BurlyWood;
-  color: SaddleBrown;
-  margin: 2rem;
-    font-family: "Poppins", sans-serif;
+  margin: 6em;
+  background-color: Aquamarine;
+  color: DarkCyan;
+  font-family: "Quicksand", sans-serif;
 }
 
 h1{
-  text-align: center;
-  animation: colora 10s ease-in-out infinite;}
+  text-align:center;
+  animation: headingChange 5s infinite;
 }
 
-/*boba*/
-.boba {
-  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f9cb.png) 36 36, auto;
-}
-
-/*couch*/
-.couch {
-  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f6cb.png) 36 36, auto;
-}
-
-/*books*/
-.books {
-  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4da.png) 36 36, auto;
-}
-
-section{
-  display: flex;
-  padding: 2rem;
-}
-
-figure{
-  display:flex;
-  align-self: flex-start;
-  position: sticky;
-  top: 1rem;
+@keyframes headingChange{
+  0%{color: #023E73;}
+  20%{color: #024873;}
+  40%{color: #03658C;}
+  60%{color: #5BB5D9;}
+  80%{color: #88DFF2;}
+  100%{color: #023E73;}
 }
 
 img{
-  width: 800px;
+  width: 300px;
+}
+
+/*wood*/
+.wood {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fab5.png) 36 36, auto;
+}
+
+/*genie*/
+.genie {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f9de.png) 36 36, auto;
+}
+
+/*bookmark*/
+.bookmark {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f516.png) 36 36, auto;
+}
+
+section{
+  padding: 1rem;
+  display: flex;
+}
+
+figure{
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
 }
 
 /* Tooltip container */
@@ -52,8 +61,8 @@ img{
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: DarkCyan;
+  color: Aquamarine;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
@@ -68,21 +77,9 @@ img{
   visibility: visible;
 }
 
-
-/*Color changing animation*/
-@keyframes colora {
-  0% {color:#4A570B;}
-  20%{color:#FCD709;}
-  40%{color:#F48F0A;}
-  60%{color:#BB6304;}
-  80%{color:#411E16;}
-  100%{color:#4A570B;}
-}
-
 button{
-  background-color:SaddleBrown;
-  color:BurlyWood;
+  background-color: DarkCyan;
+  color: Aquamarine;
+  font-family: "Quicksand", sans-serif;
   padding: 10px;
-  font-family: "Poppins";
-
 }
